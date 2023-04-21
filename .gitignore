@@ -1,0 +1,45 @@
+.docker-storage
+.env
+
+*.pyc
+
+.idea
+.vscode
+
+.pylintrc
+django/db.sqlite3
+django/tmp/logs/cron.log
+
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.log
+
+# Virtual environment
+venv/
+__venv__/
+*.venv
+
+# Poetry
+.pyenv
+.poetry
+
+# Pytest
+.pytest_cache
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Local db
+db.sqlite3

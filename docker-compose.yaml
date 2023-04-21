@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  fastapi_eth_erc20_txns:
+    build: fastapi_app
+    container_name: fastapi_eth_erc20_txns
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./fastapi_app:/code
+    env_file:
+      - .env
